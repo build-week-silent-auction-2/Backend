@@ -65,10 +65,10 @@ module.exports = {
     },
 
     migrations: {
-      directory: __dirname +'./data/migrations',
+      directory:'./data/migrations',
     },
     seeds: {
-      directory: __dirname + './data/seeds'
+      directory:'./data/seeds'
     }
   }
 
