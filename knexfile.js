@@ -63,6 +63,8 @@ module.exports = {
     connection: {
       database: dbConnection,
     },
+    port: process.env.PORT,
+    
     migrations: {
       directory:'./data/migrations',
     },
