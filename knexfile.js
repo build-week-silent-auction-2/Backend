@@ -64,11 +64,10 @@ module.exports = {
       database: dbConnection,
     },
     migrations: {
-      directory: './data/migrations',
-      tableName: 'knex_migrations'
+      directory:  __dirname + './data/migrations',
     },
     seeds: {
-      directory: './data/seeds'
+      directory: __dirname + './data/seeds'
     }
   }
 
