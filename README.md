@@ -2,6 +2,7 @@
 API link: https://silent-auction-bw.herokuapp.com/
 Documentation: https://silent-auction-bw.herokuapp.com/apidoc/
 
+
 # Endpoints
 
 ## api/auth
