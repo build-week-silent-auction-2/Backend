@@ -63,13 +63,12 @@ module.exports = {
     connection: {
       database: dbConnection,
     },
-    port: process.env.PORT,
-    
+
     migrations: {
-      directory:'./data/migrations',
+      directory: __dirname +'./data/migrations',
     },
     seeds: {
-      directory:'./data/seeds'
+      directory: __dirname + './data/seeds'
     }
   }
 
