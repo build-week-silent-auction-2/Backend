@@ -58,11 +58,11 @@ module.exports = {
   },
 
   production: {
-    client: 'sqlite3',
-    connection: './data/auctions.db3',
-    pool: {
-      min: 2,
-      max: 10
+    client: 'pg',
+    connection: {
+      database: 'postgres://ceubyoqgtfmxug:f2322ad80340eec4905a04cd0e5d5b4a97a888352119ceb4d1bac974f875177c@ec2-54-197-238-238.compute-1.amazonaws.com:5432/d8tdj5aoqdhobu',
+      user:     'username',
+      password: 'password'
     },
     migrations: {
       directory: './data/migrations'
