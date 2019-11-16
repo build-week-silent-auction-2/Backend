@@ -59,7 +59,7 @@ module.exports = {
   },
 
   production: {
-    client: pg,
+    client: 'pg',
     connection: {
       database: dbConnection,
     },
